@@ -1,0 +1,31 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body{
+    height: 100vh;
+    font-size:18px;
+}
+/* ///////////////// */
+main .div1{
+    height: 100% !important;
+    background-image:linear-gradient(to bottom, #6843FC,#332EEA);
+}
+
+main .div1 .circle{
+    padding: 20px 54px;
+    margin-bottom: 25px;
+    background-image:linear-gradient(to bottom,#3f1aba61,#4633ee81);
+}
+
+main .div1 .circle h1{
+    font-weight: 800;
+}
+
+/* //////////////// */
+
+@media (max-width:766px) {
+    .big-div{
+        margin-top: 450px!important;
+    }
+}
